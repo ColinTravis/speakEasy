@@ -1,0 +1,16 @@
+{
+    "name": "speakEasy Speaker Macropad",
+    "url": "https://www.colintravis.com",
+    "maintainer": "ColinTravis",
+    "vendorId": "0xFC00",
+    "productId": "0xCFF2",
+    "lighting": "qmk_rgblight",
+    "matrix": { "rows": 3, "cols": 3 },
+    "layouts": {
+        "keymap": [
+            ["0,0", { "x": 0.75 }, "0,1", { "x": 0.75 }, "0,2"],
+            [{ "y": 0.5, "x": 0.25 }, "1,0", { "x": 2 }, "1,1"],
+            [{ "y": 0.5, "x": 1.75 }, "2,0"]
+        ]
+    }
+}
