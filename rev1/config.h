@@ -31,8 +31,8 @@
 
 /* Keyboard Matrix Assignments */
 #define DIRECT_PINS { \
-    { D7, E6, B4 }, \
-    { B5, B3 }, \
+    { B4, E6, D7, }, \
+    { B3, B5 }, \
     { B1 } \
 }
 
@@ -45,7 +45,12 @@
   #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
   #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
   /*== all animations enable ==*/
-  #define RGBLIGHT_ANIMATIONS
+  // #define RGBLIGHT_ANIMATIONS
+  // Specify Animations
+  #define RGBLIGHT_EFFECT_BREATHING
+  #define RGBLIGHT_EFFECT_RAINBOW_MOOD
+  #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+  #define RGBLIGHT_EFFECT_STATIC_GRADIENT
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
